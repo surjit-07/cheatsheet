@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.container {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container i {
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+.content {
+    width: 100%;
+    padding: 15px;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    font-size: 1rem;
+}
+
+li {
+    margin: 10px;
+    /* width: 100%; */
+    
+}
+.bold{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+pre::-webkit-scrollbar{
+    /* display: none; */
+    visibility: hidden;
+    cursor: pointer;
+    
+}
